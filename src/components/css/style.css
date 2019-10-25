@@ -1,0 +1,102 @@
+/* Home page css property */
+.background-images{background: url(bg.jpg); background-repeat:no-repeat scroll right center; background-size:cover; height:auto;}
+.home_headingsec{font-size:68px;font-family:gardenbrush1;color:#2E3E63;margin-top:60px;margin-left: 5%;}
+@font-face {font-family: gardenbrush1;src: url(fonts/GardenBrush.otf);}
+.home_contant{padding-top:10px;columns: #4a4a4a;font-family:DIN-Regular;font-size:18px;margin-left:7%;}
+.home_contant_second{padding-top:5px;columns: #606160;font-family:DIN-Regular;font-size:14px;margin-left:12%;}
+.imagesfloat{float:left;}
+.emp_images{margin-left:6%;}
+.ab{text-decoration:none; color:gray; font-size:13px;}
+.ab:hover{text-decoration: none; color:#ea6320;}
+.define_name{font-size:14px;}
+.define_name1{font-size:12px; margin-top:-5px;}
+.button_functionlity{margin-bottom:-20px;}
+.footer_logo{margin-top:23px; float:left;}
+.footer_logo2{float:right;}
+.tableimages{margin-left:6%;}
+table>tr>td{padding-left:9px;}
+@media screen and (max-width:490px){.tableimages,.home_headingsec,#menu-outer,.home_contant,.home_contant_second{margin-left:0%;}}
+@media screen and (min-width:1245px){.tableimages{margin-left:20%;} .home_headingsec{font-size:75px; margin-left:13%;  margin-top:70px;} #menu-outer{margin-left:5%} .home_contant{font-size:21px; margin-left:15%;} .home_contant_second{font-size:16px; margin-left:17%;}}
+@media screen and (max-width:795px){.footer_logo2{text-align:right !important;}}
+.meetingbtn{height:40px !important; width:135px !important;  border-radius:12px; font-size:15px; }
+.agendabtn{height:40px !important; border-radius:12px; font-size:15px; }
+.panelbtn{height:40px !important; border-radius:12px; font-size:15px;  }
+.resourcesbtn{height:40px !important; border-radius:12px;  font-size:15px; }
+.joinsessionbtn{height:40px !important; background-color: white; border-radius:10px;  font-size:15px; border:0px;}
+.joinsessionbtn_plus{background-color: #8c8b8c; color:white; width:21px; height:18px;  border-radius:12px; padding-top:2px; }
+.joinsessionbtn_joinsession{height:40px !important; background-color: #ea6320; color:white; border-radius:10px;  font-size:15px; border:0px;}
+@media  screen and (max-width:827px){.define_name{font-size:12px;}.define_name1{font-size:10px;}.images{width:110px; height:110px;}.home_contant{font-size:16px;}}
+@media screen and (min-width:750px) and (min-width:826px){imgsecond{margin-left:-15px;}}
+/* Panel Page css property here -- */
+.panel_contant{margin-left:8%; padding-top:16px;}
+.sed_do{padding-left:15px; font-size:18px; padding-top:5px;}
+.Duis{padding-left:15px; font-size:16px; color:gray; margin-top:-8px;}
+.Duis_contant{padding-left:15px;font-size:16px; margin-top:-12px;font-size:14px;}
+.panel_anchar{padding-right:2px;font-size:16px; margin-top:-12px; float:right;}
+@media screen and (min-width:1245px){.panel_contant{margin-left:15%;}}
+/* Adenda Page css Property here -- */
+.Agenda{margin-left:8%; font-style:DIN-Regular;}
+.Agenda_para{padding-left:8%; font-style:DIN-Regular;}
+.Day_routine{padding-left:9%; font-style:DIN-Regular;}
+.agenda_anchar_tag:hover{text-decoration: none; color:gray;}
+.agenda_download_presentation{font-size:15px; color:#ea6320; text-decoration: none;}
+.agenda_download_presentation:hover{color:gray;}
+.testing{ margin-left:6%;}
+.testing b,.p{font-size:13px;}
+.minim{margin-left:-5px;} 
+@media screen and (min-width:1245px){.Agenda{margin-left:15%; font-size:20px;}.Agenda_para{margin-left:7%; font-size:21px;}.testing{margin-left:15%;}.testing{ margin-left:13%;}}
+@media screen and (min-width:936px){.minim1{margin-left:-120px;}}
+@media screen and (max-width:936px){.minim1{margin-left:-80px;} .testing b,.p{font-size:12px;}}
+/* Resources Page css Property here --  */
+.resource_contant{ font-family:DIN-Regular; margin-left:6%; padding-right:5%;}
+#resource_para{font-size:19px;}
+.table_resource{margin-left:4px; }
+.table_resource1{background-color: white; margin-left:4px;}
+.resource_anchar{padding-top: 7px;}
+.resource_utenim{font-size:17px;}
+@media screen and (min-width:1245px){.table_resource1,.table_resource{margin-left:10%;}}
+#menu-outer{margin-top:110px;}
+/* Session Pages Define here-- */
+.session_heading{margin-top:40px;}
+.session_world{padding-top:30px; margin-left:9%;}
+.session_table{margin-left:4px;}
+.submit_answer{ padding-left: 60px !important;}.submit_answer span{color:#ea6320;}
+.session_table{margin-left:10%;  margin-top:10px;}
+.session_table1{margin-left:10%; background-color: white; margin-top:10px;}
+.session_table2{margin-left:2%;  margin-top:14px;}
+.submitquestion1{margin-left:6%;  margin-top:14px;  }
+@media screen and (min-width:1245px){.session_table,.session_table1,.submit_answer,.session_world{margin-left:15%;}}
+/* Session result pages css files  */
+.result{color:#ea6320;}
+/* sesion result pages */
+.sessionresult_ul{padding-top:16px; margin-left:-24px; font-size:18px; }
+.sessionresult_contant{float:right; margin-right:19px; margin-top:7px;}
+.sessionresult_li span{color:black; font-style:DIN-Regular; font-size:16px; }
+.sessionresult_li{font-size:26px;}
+.sessionresult_li1{color:#3366CC;}
+.sessionresult_li2{color:#DC3912;}
+.sessionresult_li3{color:#FF9900;}
+.sessionresult_li4{color:#CCCCCC;}
+/* session question */
+.sesson_question{margin-top:15px; margin-left:12%;}
+@media screen and (min-width:1245px){.sesson_question{ margin-left:27%;}}
+/* Meeting Word   */
+.meeting_background_images{background: url(cloud.jpg);background-size:cover;}
+.meeting_word{padding-top:400px;}
+/* live session css age property */
+.submit_live{background-color: #ea6320; color:white; border-color: #ea6320; border-radius: 10px;}
+.from_live{margin-left:5%; margin-top:9px;}
+@media screen and (min-width:1245px){.from_live{margin-left:14%;}}  
+.textlive{width:400px; border:2px solid #606160; border-radius:10px;}
+.livesession_footer{padding-top:100px;}
+@media screen and (max-width:895px){.textlive{width:280px;}}
+/* another */
+ul#horizontal-list { list-style: none;  margin-top:-25px;}
+ul#horizontal-list li { display: inline;}
+@media screen and (max-width:569px){ul#horizontal-list li{display:block; margin-bottom:5px;} .footer_logo2{float:left;} .ab{padding-right:70px;} .home_headingsec{font-size:60px;} .minim1{margin-left:0px;} .sed_do,.Duis,.Duis_contant{padding-left:0px;} .sessionresult_contant{margin-right:7px; float:left;} ul#horizontal-list {margin-top:0px;}}
+@media screen and (max-width:708px){.home_headingsec,.home_contant,.home_contant_second{margin-left:0px;} .home_contant{font-size:17px;}}
+.footer_position{ width:100%; bottom: 0px; background-color:white; }
+.footerspaces{padding-top:145px!important;}
+.footer_logo1{margin-right:-10px;}
+.fluid{background-color: #E9EDEC; }
+@media screen and (min-width:569px){.footer_position{position: fixed;}}
